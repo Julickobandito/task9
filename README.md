@@ -1,8 +1,9 @@
 # task9
 Julia Kozyuk
 
-This script is made for searching files in "folder". To make search you need to execute command 
+This script is made for searching files by text in first command parameter.
+To make search you need to execute command: 
 
- ./finder.sh "er" 
+ ./finder.sh "ber" 
 
-"er" is an example of filter for files that contain "er" in names of files.
+"ber" is an example of filter for files that contain "ber" in names of files.
