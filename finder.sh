@@ -1,7 +1,13 @@
 #! /bin/bash
 
-QUERY=$1
+FILTER=$1
 
-find ./folder/ -type f -printf "%f\n" | grep "$QUERY"
+echo "Results:"
+echo "------------------------"
+echo
 
+find ./folder -type f -exec grep -l "$FILTER" {} \;
+
+echo
+echo "------------------------"
 echo "search is over"
