@@ -1,5 +1,5 @@
 # task9
-task 9 code
+Julia Kozyuk
 
 This script is made for searching files in "folder". To make search you need to execute command 
 
